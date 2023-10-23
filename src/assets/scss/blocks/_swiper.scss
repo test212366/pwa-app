@@ -1,0 +1,25 @@
+.swiper {
+  margin-top: 3rem;
+}
+.swiper__wrap {
+  align-items: center;
+}
+.recomend {
+  position: relative;
+}
+.fultersSwiper {
+  position: relative;
+}
+.swiper-button-prev {
+  position: absolute;
+  transform: translate(-4.5rem, 1.5rem);
+  color: rgba(255, 255, 255, 0.8);
+}
+.swiper-button-next {
+  position: absolute;
+  transform: translate(4.5rem, 1.5rem);
+  color: rgba(255, 255, 255, 0.8);
+}
+.slide {
+  margin-right: 2rem;
+}

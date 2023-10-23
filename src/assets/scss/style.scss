@@ -1,0 +1,23 @@
+@import "blocks/_vars";
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg;
+    font-size: 1.4rem;
+    color: white;
+}
+
+@import "blocks/_container";
+@import "blocks/_movie";
+@import "blocks/_scrollBar";
+@import "blocks/_raiting";
+@import "blocks/_header";
+@import "blocks/_page";
+@import "blocks/_swiper";
+@import "blocks/_footer";
+@import "blocks/_video";
+@import "blocks/_aside";

@@ -1,0 +1,26 @@
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #171b36;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 36px -4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 36px -4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 36px -4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  z-index: 99999;
+}
+#loadMore {
+  background-color: #1e2547;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.7rem;
+  transition: all ease .3s;
+  border-radius: 10px;
+  &:hover {
+    background-color: #fff;
+    color: black;
+  }
+}

@@ -1,0 +1,127 @@
+.movies {
+  margin-top: 9rem;
+}
+.overlay {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  transition: .3s ease all;
+}
+.movie__img {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  border-radius:1.2rem;
+}
+.descR {
+  position: relative;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   transform: translateY(-100%);
+  transition: .3s ease all;
+}
+.overlay:hover{
+    opacity: 1;
+  & .descR{
+    transform: translateY(0);
+  }
+}
+.movie__title {
+  margin: .6rem 0rem 0rem 0;
+  font-size: 1.8rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-weight: 500;
+}
+.movie__trailer {
+  cursor: pointer;
+  margin-top: -.4rem;
+  font-weight: 400;
+  color: rgba(0, 123, 255, 0.75);
+}
+.CAll {
+  overflow: hidden;
+  width: 20rem;
+}
+.movie__raiting {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.year {
+  color: rgba(255, 255, 255, 0.79);
+  font-size: 2rem;
+}
+.country {
+  color: rgba(255, 255, 255, 0.79);
+}
+.fulters {
+  color: rgba(255, 255, 255, 0.79);
+}
+.time {
+  color: rgba(255, 255, 255, 0.79);
+}
+h4 {
+  font-size:2.4rem;
+  font-weight: 700;
+}
+.m {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.71);
+}
+.chose-NZ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  font-weight: 600;
+  font-size: 1.3rem;
+  background-color: #007bff;
+  padding: .3rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+  transform: translateY(1rem);
+}
+.nSlide {
+  background-color: #1a1f3d;
+  cursor: pointer;
+  border-radius: 1.2rem;
+  margin-right: 1rem;
+  color: rgba(255, 255, 255, 0.67);
+  font-weight: 500;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: .3s ease all;
+  &:hover {
+    background-color: #1e2445;
+    color: #fff;
+    transform: scale(1.2);
+  }
+}
+.titleDrop {
+  margin-top: 2rem;
+  font-size: 2.1rem;
+}
+.m-drop {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.71);
+  width: 50rem;
+}
+.titleSlider {
+  color: #fff;
+}
